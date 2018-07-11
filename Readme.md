@@ -1,6 +1,6 @@
 # Living Lab site
 
-(uwasystemhealth.github.io/livinglab-site)[https://uwasystemhealth.github.io/livinglab-site/]
+#### [uwasystemhealth.github.io/livinglab-site](https://uwasystemhealth.github.io/livinglab-site/)
 
 This is a static one-pager that is compiled using hugo, and hosted on Github pages
 
@@ -41,7 +41,7 @@ This will compile and save the files to the docs folder. Github pages will displ
 
 *Bug Fix* Until the domain is pointing at the website, the absolute references break the website, to fix it, run this command before commiting the changes:
 ```
-$ sed -i 's/href="\//href="/g' docs/index.html && sed -i 's/src="\//src="/g' docs/index.html && sed -i 's/url("\//url("/g' docs/css/main.css
+$ sed -i 's/href="\//href="/g' docs/index.html && sed -i 's/src="\//src="/g' docs/index.html && sed -i 's/url("\//url("..\//g' docs/css/main.css
 ```
 
 Commit and push your changes.
