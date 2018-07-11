@@ -37,6 +37,11 @@ $ hugo -d docs
 
 This will compile and save the files to the docs folder. Github pages will display the contents of the docs folder.
 
+*Bug Fix* Until the domain is pointing at the website, the absolute references break the website, to fix it, run this command before commiting the changes:
+```
+$ sed -i 's/href="\//href="/g' docs/index.html && sed -i 's/src="\//src="/g' docs/index.html
+```
+
 Commit and push your changes.
 
 ```
