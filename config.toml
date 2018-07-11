@@ -1,0 +1,44 @@
+baseurl = "https://livinglabproject.com"
+title = "LivingLab@UWA"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = 'Living Lab Project'
+  logo = "fa-cogs"
+  copyright = "System Health Lab"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/uwasystemhealth"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/SystemHealthLab/"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/uwasystemhealth"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/uwasystemhealth"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+#[languages.de]
+#languageName = "Deutsch"
+#weight = 2
+#title = "Dimension"
+#description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />#
+#                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
