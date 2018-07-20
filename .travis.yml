@@ -1,8 +1,9 @@
 # Clean and don't fail
 install:
-  - rm -rf docs || exit 0
+  - rm -rf docs/* || exit 0
   - git submodule init
   - git submodule update
+  - chmod 777 ./bin/hugo
 
 # Build the website
 script:
