@@ -1,5 +1,5 @@
 baseurl = "https://livinglabproject.com"
-title = "LivingLab@UWA"
+title = "Living Lab"
 theme = "dimension"
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -7,7 +7,7 @@ enableRobotsTXT = true
 disableKinds=["RSS"]
 
 [params]
-  description = 'Living Lab Project'
+  description = 'A UWA System Health Lab, Core Innovation Hub, and Mets Ignited Project<br> with the BHP fellowship for engineering for remote operations.'
   logo = "fa-cogs"
   copyright = "System Health Lab"
 
@@ -15,6 +15,11 @@ disableKinds=["RSS"]
   medium = "twitter"
   icon = "twitter"
   link = "https://twitter.com/uwasystemhealth"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "superscript"
+  link = "https://twitter.com/shl_eotd"
 
 [[params.social]]
   medium = "facebook"
