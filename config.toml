@@ -8,7 +8,7 @@ disableKinds=["RSS"]
 
 [params]
   description = 'A UWA System Health Lab, Core Innovation Hub, and Mets Ignited Project<br> with the BHP fellowship for engineering for remote operations.'
-  logo = "fa-cogs"
+  logoimage = "images/shl-logo.png"
   copyright = "System Health Lab"
 
 [[params.social]]
