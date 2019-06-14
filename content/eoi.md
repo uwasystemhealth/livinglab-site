@@ -1,7 +1,7 @@
 +++
 title = "Expression of Interest"
 weight = 60
-menuname = "Log Interest"
+menuname = "Express Interest"
 draft = false
 +++
 
